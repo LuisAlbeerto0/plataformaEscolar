@@ -44,7 +44,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(intent)
         }
         binding.Reinscrpcion.setOnClickListener {
-            val intent = Intent(this,homeRe::class.java)
+            val intent = Intent(this,HomeRe::class.java)
             intent.putExtra("usuario", stringUsuario)
             intent.putExtra("verano",stringVerano)
             println(" DESDE HOME " +stringVerano)

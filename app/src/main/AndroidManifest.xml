@@ -12,7 +12,7 @@
         <activity android:name=".DatosInscripcion"></activity>
         <activity android:name=".EleccionActivity" />
         <activity android:name=".Residencia" />
-        <activity android:name=".homeRe" />
+        <activity android:name=".HomeRe" />
         <activity android:name=".ReticulaActivity" />
         <activity android:name=".HorarioActivity" />
         <activity android:name=".CalificacionesActivity" />

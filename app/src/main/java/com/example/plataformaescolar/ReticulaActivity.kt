@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
-import com.example.plataformaescolar.clases.AdapterReticula
+import com.example.plataformaescolar.adapters.AdapterReticula
 import com.example.plataformaescolar.clases.Calificacion
 import com.example.plataformaescolar.databinding.ActivityReticulaBinding
 import org.json.JSONObject

@@ -6,7 +6,7 @@ import android.os.Bundle
 import com.example.plataformaescolar.databinding.ActivityHomeBinding
 import com.example.plataformaescolar.databinding.ActivityReinscripcionBinding
 
-class homeRe : AppCompatActivity() {
+class HomeRe : AppCompatActivity() {
     private lateinit var binding: ActivityReinscripcionBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {

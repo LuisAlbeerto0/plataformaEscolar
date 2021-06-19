@@ -46,7 +46,7 @@ class Residencia : AppCompatActivity() {
         }
 
         binding.btnRegresar.setOnClickListener {
-            val intent = Intent(this, homeRe::class.java)
+            val intent = Intent(this, HomeRe::class.java)
             startActivity(intent)
             finish()
         }

@@ -1,4 +1,4 @@
-package com.example.plataformaescolar.clases
+package com.example.plataformaescolar.adapters
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,11 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.TextView
 import com.example.plataformaescolar.R
+import com.example.plataformaescolar.clases.Materia
 
-class AdapterCalificacion(val context: Context, val layout: Int, val lista: List<Calificacion>) : BaseAdapter() {
+class AdapterMaterias (val context: Context, val layout: Int, val lista: List<Materia>) : BaseAdapter() {
+
+
     override fun getCount(): Int {
         return lista.size
     }
@@ -25,11 +28,11 @@ class AdapterCalificacion(val context: Context, val layout: Int, val lista: List
         val inflater = context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         val miView = inflater.inflate(layout, null)
 
-        val calificacion = miView.findViewById<TextView>(R.id.textViewCalificacion)
-        val nomMateriaCalif = miView.findViewById<TextView>(R.id.textViewNombreMateriaCalificacion)
+        val horaMateria = miView.findViewById<TextView>(R.id.textViewHoraMateria)
+        val nomMateria = miView.findViewById<TextView>(R.id.textViewNombreMateria)
 
-        calificacion.text = lista.get(position).calificacion
-        nomMateriaCalif.text = lista.get(position).nomMateriaCalificacion
+        horaMateria.text = lista.get(position).hora
+        nomMateria.text = lista.get(position).nomMateria
 
         return miView
     }

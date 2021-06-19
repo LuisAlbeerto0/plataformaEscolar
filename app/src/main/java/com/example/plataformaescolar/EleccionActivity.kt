@@ -6,7 +6,7 @@ import android.view.View
 import android.widget.AdapterView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.plataformaescolar.clases.AdapterReticula
+import com.example.plataformaescolar.adapters.AdapterReticula
 import com.example.plataformaescolar.clases.Calificacion
 import com.example.plataformaescolar.databinding.ActivityEleccionBinding
 import org.json.JSONObject

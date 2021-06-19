@@ -2,7 +2,7 @@ package com.example.plataformaescolar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.plataformaescolar.clases.AdapterCalificacion
+import com.example.plataformaescolar.adapters.AdapterCalificacion
 import com.example.plataformaescolar.clases.Calificacion
 import com.example.plataformaescolar.databinding.ActivityCalificacionesBinding
 import org.json.JSONObject

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Plataforma Escolar</string>
+
+    <string name="jsonUsuarios">
+        {
+            "usuarios" : [
+                {
+                    "nombre":"'Gabriel Ruiz'",
+                    "noControl": "17121102",
+                    "carrera": "TICS",
+                    "semestre": 9,
+                    "contrasena": "1234"
+                },{
+                      "nombre":"'Luis Alberto Oseguera '",
+                    "noControl": "17121095",
+                    "carrera": "Sistemas",
+                    "semestre": 9,
+                    "contrasena": "12345"
+                }
+            ]
+        }
+    </string>
+    <string name="jsonProyectos">
+        {
+            "p1" : [
+                {
+                    "desc": "'La vida con internet en luz'",
+                    "enca": "'Ayala_Robles_Kenia_Aline'",
+                    "nombre": "'Energy cop'"
+                }
+            ],
+            "p2" : [
+                {
+                    "desc": "'Agua potable para todos'",
+                    "enca": "'Ortiz Ortiz Octavio Salud'",
+                    "nombre": "'La fina'"
+                }
+
+            ],
+
+            "p3" : [
+                {
+                    "desc": "'Las Tics en el campo'",
+                    "enca": "'Roberto Herrera Ortiz'",
+                    "nombre": "'SAO S.A. de C.V.'"
+                }
+            ]
+        }
+    </string>
+
+    <string-array name= "nomProycecto">
+        <item>engergia limpia</item>
+        <item>Agua para todos</item>
+        <item>Tics en el campo</item>
+    </string-array>
+    <string name="noControl">Numero de control</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="btnlogin">Ingresar</string>
+    <string name="linkSignin">¿No tienes cuenta? <u>Registrate</u></string>
+
+    <string name="signin">Registrarse</string>
+    <string name="nombre">Nombre</string>
+    <string name="carrera">Carrera</string>
+    <string name="semestre">Semestre</string>
+    <string name="calificaciones">Calificaciones</string>
+    <string name="horario">Horario</string>
+    <string name="reticula">Avance reticular</string>
+    <string name="datosPersonales">Datos personales</string>
+    <string name="btnSalir">Cerrar sesión</string>
+
+    <string name="dia1">Lunes</string>
+    <string name="dia2">Martes</string>
+    <string name="dia3">Miercoles</string>
+    <string name="dia4">Jueves</string>
+    <string name="dia5">Viernes</string>
+
+
+    <string-array name="diasDeLaSemana">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+        <item>Jueves</item>
+        <item>Viernes</item>
+    </string-array>
+
+    <string-array name="numSemestres">
+        <item>Engergia limpia</item>
+        <item>Agua para todos</item>
+        <item>Tics en el campo</item>
+    </string-array>
+
+
+    <string name="act">Actualizar</string>
+    <string name="regresar">Regresar</string>
+</resources>
